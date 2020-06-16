@@ -37,6 +37,7 @@
             this.btn_Clear = new System.Windows.Forms.Button();
             this.rb_US = new System.Windows.Forms.RadioButton();
             this.rb_Yen = new System.Windows.Forms.RadioButton();
+            this.rb_ringgit = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -124,11 +125,23 @@
             this.rb_Yen.Text = "Japanese Yen";
             this.rb_Yen.UseVisualStyleBackColor = true;
             // 
+            // rb_ringgit
+            // 
+            this.rb_ringgit.AutoSize = true;
+            this.rb_ringgit.Location = new System.Drawing.Point(155, 112);
+            this.rb_ringgit.Name = "rb_ringgit";
+            this.rb_ringgit.Size = new System.Drawing.Size(108, 17);
+            this.rb_ringgit.TabIndex = 9;
+            this.rb_ringgit.TabStop = true;
+            this.rb_ringgit.Text = "Malaysian Ringgit";
+            this.rb_ringgit.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(415, 208);
+            this.Controls.Add(this.rb_ringgit);
             this.Controls.Add(this.rb_Yen);
             this.Controls.Add(this.rb_US);
             this.Controls.Add(this.btn_Clear);
@@ -156,6 +169,7 @@
         private System.Windows.Forms.Button btn_Clear;
         private System.Windows.Forms.RadioButton rb_US;
         private System.Windows.Forms.RadioButton rb_Yen;
+        private System.Windows.Forms.RadioButton rb_ringgit;
     }
 }
 

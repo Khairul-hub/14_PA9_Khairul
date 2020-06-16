@@ -33,6 +33,8 @@ namespace _14_Khairul_PA9
                     amount *= 0.74;
                 else if (rb_Yen.Checked)
                     amount *= 81.97;
+                else if (rb_ringgit.Checked)
+                    amount *= 3.01;
 
                 txt_Converted.Text = Convert.ToString(amount);
             }
